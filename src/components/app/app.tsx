@@ -1,13 +1,16 @@
-import React from 'react';
-import './app.css';
+import React, { FC } from 'react';
+import PostsList from '../PostsList/PostsList';
+import Header from '../Header/Header';
 
-const App = () => {
+const App: FC = () => {
     return (
         <div className="wrapper">
-            <div className="content"></div>
+            <div className="content">
+                <Header/>
+                <PostsList/>
+            </div>
         </div>
     );
-}
+};
 
 export default App;
-
