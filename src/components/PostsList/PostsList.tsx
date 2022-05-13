@@ -3,6 +3,7 @@ import PostItems from '../PostItems/PostItems';
 import Pagination from '../Pagination/Pagination';
 import SearchPanel from '../SearchPanel/SearchPanel';
 import { postsPerPage } from '../../constants';
+import './postsList.css';
 
 const PostsList: FC = () => {
     const [items, setItems] = useState([]);

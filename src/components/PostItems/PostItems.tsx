@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { ItemsProps } from '../../types';
-
+import './postItem.css';
 
 const PostItems: FC<ItemsProps> = ({ items }) => {
     return (

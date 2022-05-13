@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import PostsList from '../PostsList/PostsList';
 import Header from '../Header/Header';
-
+import './app.css'
 const App: FC = () => {
     return (
         <div className="wrapper">

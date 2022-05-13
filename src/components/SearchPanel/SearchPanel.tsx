@@ -2,6 +2,7 @@ import React, { FC, useEffect, useState } from 'react';
 import { Button, AutoComplete, notification } from 'antd';
 import axios from 'axios';
 import { IData, ISearchPanel, ISearchOptions } from '../../types';
+import './searchPanel.css';
 
 const SearchPanel: FC<ISearchPanel> = ({ setItems }) => {
     const [value, setValue] = useState('');

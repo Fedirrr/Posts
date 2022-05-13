@@ -2,6 +2,8 @@ import React, { FC } from 'react';
 import { Button } from 'antd';
 import { IPagination } from '../../types';
 import { postsPerPage } from '../../constants';
+import './pagination.css';
+
 
 const Pagination: FC<IPagination> = ({totalPosts, currentPage, setCurrentPage}) => {
     const pageNumbers: number[] = [];
